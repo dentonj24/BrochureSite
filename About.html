@@ -11,13 +11,12 @@
     
         body {background-color: #1d5d69;
               font-family: Arial, Verdana, sans-serif;
-            color:#ffffff;}
-
-            .box {max-width: 85%;
-            justify-content: center}
+            color:#ffffff;
+        width: 100%;
+    margin: 0 auto}
 
         
-        header {width: 90%;
+       #header {width: 90%;
                 padding: 2em;
                 background-color: #1d5d69;
                 color: #dcffff;}
@@ -50,13 +49,22 @@
                         position: right;
                         border: 2px solid transparent}
 
-                .column1of2 {
-                    float: left;max-width:40%;
+                .column1 {
+                    float: left;
+                    width:50%;
                     height:auto}
-                .column2of2 {
-                    float: right;}
+                .column2 {
+                    float: right;
+                    width: 50%;
+                    height: auto}
         
-                
+                    .header {width: 90%;
+                padding: 2em;
+                color: #dcffff;}
+
+            .box {max-width: 85%;
+            justify-content: center}
+
         h1 {color: #dcffff;
                 font-size: 10vw;
                 font-family: Georgia, Times, serif;
@@ -131,8 +139,12 @@
         
       </head>
 </head>
-<header>
-    <p><div class="column1of2"><img src="https://dentonj24.github.io/BrochureSite/Images/JA%20Logo%20White-01.png" alt="Jessica Adams Logo"></div></p><p><div class="PageTitle">About</div></p><br />
+<body>
+<div id="header">
+    <div class="column1">
+        <h1>About</h1></div>
+        <div class="column2"><img src="https://dentonj24.github.io/BrochureSite/Images/JA%20Logo%20White-01.png" alt="Jessica Adams Logo"></div>
+
             
         
         
