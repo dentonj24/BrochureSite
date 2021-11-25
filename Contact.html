@@ -4,123 +4,148 @@
 <head>
     <meta charset="utf-8">
 
-    <title>MIS585 Brochure Site - Adams</title>
-    <meta name="description" content="Brochure Site">
+    <title>About Jessica Adams</title>
+    <meta name="description" content="About Jessica Adams">
     <meta name="author" content="Jessica Adams">
-
     <style>
-        header {background-color: rgba(191,238,233,0.8);
-            padding: 0em .5em;
-            margin-top: 2em;
-            color: #bfeee9;
-            width:95%;}
+    
+        body {background-color: #1d5d69;
+              font-family: Arial, Verdana, sans-serif;
+              color:#ffffff;
+              font-size: 12px;
+              width: 100%;
+              margin: 0 auto}
+            
         
-        .headertitlelayout{
-             display: flex;
-            align-items: center;}
-        
-        h1 { color: #e09679;
-        font-size: 3vw;
-        font-family: "new-spirit", serif;
-        font-style: normal;
-        font-weight: 500;
-        display: flex;
-        justify-content: flex-end;
-        align-items: flex-start;}
-        
-       
-</style>
- 
-    <style> 
-        navigation {background-color: rgba(191,238,233,0.6);
-        width:95%;
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        padding: .2em;}
+       #header {width: 90%;
+                padding: 2em;
+                margin: 1em;
+                background-color: #1d5d69;
+                color: #dcffff;}
+                
+                .column1 {float: left;
+                    margin-right: 10px;
+                max-width: 50%;
+                height: auto}
 
-        h2 { color: #e09679;
-        font-size: 1.5vw;
-        font-family: "new-spirit", serif;
-        font-style: normal;
-        font-weight: 300;}
-
-         .navbutton{
-            padding: 0;
-            margin: .5em;
-            border: 2px solid transparent
-         }
-        ul {list-style: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-       }
+        img.headerlogo {float: left;
+                    margin-right: 10px;
+                max-width: 40%;
+                height: auto}
+                    
         
-        li {float: left;
-        list-style-type: none;}
-         
-        li a:link, a:visited {
-            display: inline-block;
+#navigation {display: flex inline;
+                margin: 2px;
+            padding: 2px }
+                
+        
+                .pagenavbutton {
+                        list-style-type: none;
+                        padding: .5em;
+                        margin: 1em;
+                        position: right;
+                        font-size: 2.5vw;
+                        font-family: Georgia, Times, serif;
+                        font-style: bold;
+                        border: 2px solid transparent}
+        
+
+        h1 {color: #dcffff;
+                font-size: 10vw;
+                font-family: Georgia, Times, serif;
+                font-style: bold;}
+                        
+        h2 {color: #dcffff;
+                font-size: 2.5vw;
+                font-family: Georgia, Times, serif;
+                font-style: bold}
+      
+      h4 {
+                    font-size: 14px;
+              color:#ffffff}
+        
+        ul {list-style-type: none;
+              text-align: center}
+      
+              .page {text-align: right}
+        
+        li {display: inline-block;}
+      li a:link, a:visited {
+                    color: #ffffff;
+                    border-radius: 10px;
+                    border: 2px solid #fdffff;
+                    position: center;
+                    padding: .5em;
+                    text-decoration: none;
+                    font-size: 2.5vw;
+                    font-family: Georgia, Times, serif;
+                    font-style: bold;
+                    box-shadow: 5px 10px rgba (0, 0, 0, 0.8);}
+                    
+      
+      li a:hover {
+                    border: 2px solid #fff;
+                    border-radius: 10px;
+                    background-color: #dcffff;
+                    color: #13616d;
+                    position: center;
+                    padding: .5em;font-size: 2.5vw;
+                    font-family: Georgia, Times, serif;
+                    font-style: bold;
+                    text-decoration: none;
+                    box-shadow: 5px 10px rgba (0, 0, 0, 0.8);}
+      
+              
+              .current {display: none}
+
+    p {color: #ffffff;
+    align-items: center}
+
+    a:link, a:visited {
+                    color: #ffffff;
+                    font-style: bold;
+                    text-decoration: underline;}
+        
+        a:hover {
+                    color:coral;
+                    text-decoration: underline;}
+                    
+
+       .boxcenter {margin: 4px 10px;
+                padding: 2px;
+                max-width: 85%;
+            float: center;
             text-align: center;
-            color: #e09679;
-            border-radius: 10px;
-            border: 2px solid transparent;
-            padding: 5px 16px;
-            text-decoration: none;
-        }
-        li a:hover {
-            display: inline-block;
-            text-align: center;
-            border: 2px solid #fff;
-            border-radius: 10px;
-            background-color: #e09679;
-            color: #bfeee9;
-            padding: 5px 16px;
-            text-decoration: none;
-        }
-  
-    </style>
-    <style>
-        body {background-color: #f9f9f9;
-            text-align: left;
-            font-family: "new-spirit", sans-serif;
-            color:dimgray;
-            padding: .1em;
-            margin: 0.5em;
-        }
+            border: 3px solid coral}
+            
+        .boxleft {margin: 6px 10px;
+                padding: 8px;
+                max-width: 85%;
+                align-self: center;
+            float: left;
+            border: 3px solid coral}
 
-        .title{color:#e09679;
-        padding: .1em .3em;
-    margin: .3em .3em;
-display: flex;
-justify-content: flex-start;}
+            img {padding: 5px;
+                margin: 2px;
+            float:left}
 
-        h1 { color: #e09679;
-        font-size: 6vw;
-        font-family: "new-spirit", serif;
-        font-style: normal;
-        font-weight: 500;
-display: flex;
-justify-content: flex-start;}
-
-    </style>
+              </style>
+        
+      </head>
 </head>
-<header>
-    <div style="overflow-x:auto;">
-        <table align="center" border="0" cellpadding="5" cellspacing="5" style="width: 100%;">
-    <table>
-        <tr>
-            <td>
-        <div class="headertitlelayout">
-            <img src="https://dentonj24.github.io/BrochureSite/JA%20Logo%20Final.png" alt="Jessica Adams Logo" style="max-width:40%;height:auto"></div></td>
-            <td align="left"; width="50%;>
-                <navigation>
-                <div class="navbutton">
-                       <ul style="list-style-type:none;">
-                           <li><h2><a href="https://dentonj24.github.io/BrochureSite/index.html">Home</a></h1></li>
-                           <li><h2><a href="https://dentonj24.github.io/BrochureSite/About.html">About</a></h1></li>
-                           <li><h2><a href="https://dentonj24.github.io/BrochureSite/Creative.html">Creative</a></h1></li>
-                           <li><h2><a href="https://dentonj24.github.io/BrochureSite/Adams_Jessica_Resume.pdf" target="_blank">Resume</a></h1></li>
+<body>
+<div id="header">
+        <img src="https://dentonj24.github.io/BrochureSite/Images/JA%20Logo%20White-01.png" alt="Jessica Adams Logo" class="headerlogo" />
+    </div>
+    <br/>
+    <div id="navigation">
+    <div class="pagenavbutton">
+        <ul>
+      
+                           <li><a href="https://dentonj24.github.io/BrochureSite/index.html">Home</a></li>
+                           <li><a href="https://dentonj24.github.io/BrochureSite/About.html">About</a><</li>
+                           <li><a href="https://dentonj24.github.io/BrochureSite/Creative.html">Creative</a></li>
+                           <li><a href="https://dentonj24.github.io/BrochureSite/Adams_Jessica_Resume.pdf" target="_blank">Resume</a></li>
                           
                 </div>
             </navigation>
