@@ -1,49 +1,62 @@
+body {background-color: #1d5d69;
+      font-family: Arial, Verdana, sans-serif;}
 
-        body {background-color: #1d5d69
-        }
-
-header {background-color: #1d5d69;
-            padding: 2em;
-            color: #bfeee9;
-            width:95%;
-            }
+header {width: 90%;
+        padding: 2em;
+        color: #dcffff;}
         
-        .headertitlelayout{
-             display: flex;
+        .homenav {
+             display: flex block;
              justify-content: center;
              align-items: center;
-        }
+             padding: 1em;}
+        
+        .homelogo {
+             display: flex;
+             justify-content: center;
+             align-items: center;}
 
-        navigation {background-color: #dcffff);
-        width:95%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 1em;}
-
-        h1 { color: #ffffff;
-        font-size: 3vw;
-        font-family: "new-spirit", serif;
-        font-style: normal;
-        font-weight: 500;}
-
-         .navbutton{
+        .homenavbutton {
             padding: .5em;
             margin: 1em;
             position: center;
-            border: 2px solid transparent
+            border: 2px solid transparent}
+
+        .page {display: flex inline}
         
-        }
-        a:link, a:visited {
+        .pagelogo {
+            justify-content: left;
+             align-items: center;}
+
+        .pagenavbutton {
+                list-style-type: none
+                padding: .5em;
+                margin: 1em;
+                position: center;
+                border: 2px solid transparent}
+
+        
+h1 {color: #dcffff;
+        font-size: 3vw;
+        font-family: Georgia, Times, serif;
+        font-style: bold;}
+                
+h2 {color: #dcffff;
+        font-size: 2.5vw;
+        font-family: Georgia, Times, serif;
+        font-style: bold}
+
+        
+a:link, a:visited {
             color: #ffffff;
             border-radius: 10px;
             border: 2px solid #fdffff;
             position: center;
             padding: .5em;
             text-decoration: none;
-            box-shadow: 5px 10px rgba (0, 0, 0, 0.8);
-        }
-        a:hover {
+            box-shadow: 5px 10px rgba (0, 0, 0, 0.8);}
+
+a:hover {
             border: 2px solid #fff;
             border-radius: 10px;
             background-color: #dcffff;
@@ -51,7 +64,6 @@ header {background-color: #1d5d69;
             position: center;
             padding: .5em;
             text-decoration: none;
-             box-shadow: 5px 10px rgba (0, 0, 0, 0.8);
-        }
+            box-shadow: 5px 10px rgba (0, 0, 0, 0.8);}
  
 
