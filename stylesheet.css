@@ -67,5 +67,11 @@ a:hover {
             padding: .5em;
             text-decoration: none;
             box-shadow: 5px 10px rgba (0, 0, 0, 0.8);}
+
+ul {list-style-type: none}
+
+li {display: inline;}
+      
+      .current {display: none}
  
 
