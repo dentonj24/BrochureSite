@@ -44,9 +44,6 @@
         
                 .page {display: flex inline}
                 
-                .pagelogo {
-                    float: right;
-                     align-items: center;}
         
                 .pagenavbutton {
                         list-style-type: none;
@@ -54,13 +51,16 @@
                         margin: 1em;
                         position: center;
                         border: 2px solid transparent}
+
+                .column1of2 {float: left;
+                }
+                .column2of2 {float: right;}
         
                 
         h1 {color: #dcffff;
                 font-size: 10vw;
                 font-family: Georgia, Times, serif;
-                font-style: bold;
-                text-align: left !important}
+                font-style: bold;}
                         
         h2 {color: #dcffff;
                 font-size: 2.5vw;
@@ -124,7 +124,11 @@
       </head>
 </head>
 <header>
-    <h1>About<div class="pagelogo"><img src="https://dentonj24.github.io/BrochureSite/Images/JA%20Logo%20White-01.png" alt="Jessica Adams Logo"></div></h1>
+    <div class="column1of2">
+        <h1>About<h1></div>
+            
+    <div class="column2of2">
+        <img src="https://dentonj24.github.io/BrochureSite/Images/JA%20Logo%20White-01.png" alt="Jessica Adams Logo"></div>
             
     <div class="pagenavbutton">
                        <ul>
