@@ -39,7 +39,8 @@ header {width: 90%;
 h1 {color: #dcffff;
         font-size: 3vw;
         font-family: Georgia, Times, serif;
-        font-style: bold;}
+        font-style: bold;
+        position: right}
                 
 h2 {color: #dcffff;
         font-size: 2.5vw;
