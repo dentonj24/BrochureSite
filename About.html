@@ -16,7 +16,7 @@
               margin: 0 auto}
             
             .box {max-width: 85%;
-            justify-content: left}
+            justify-content: center}
         
        #header {width: 90%;
                 padding: 2em;
@@ -35,17 +35,14 @@
                 height: auto}
                     
         
-#navigation {display: flex-inline;
-position: center;
-margin: 2em;
-padding: 1em}
+#navigation {display: flex inline}
                 
         
                 .pagenavbutton {
                         list-style-type: none;
                         padding: .5em;
                         margin: 1em;
-                        position: center;
+                        position: right;
                         border: 2px solid transparent}
         
 
@@ -65,22 +62,30 @@ padding: 1em}
         
                 
         a:link, a:visited {
-                    color: #f7dfd5;
-                    text-decoration: underline;}
-                    
+                    color: #ffffff;
+                    border-radius: 10px;
+                    border: 2px solid #fdffff;
+                    position: center;
+                    padding: .5em;
+                    text-decoration: none;
+                    box-shadow: 5px 10px rgba (0, 0, 0, 0.8);}
         
         a:hover {
-                    font-style: strong;
-                    color: #f7dfd5;
-                    text-decoration: underline;
-                    
+                    border: 2px solid #fff;
+                    border-radius: 10px;
+                    background-color: #dcffff;
+                    color: #13616d;
+                    position: center;
+                    padding: .5em;
+                    text-decoration: none;
+                    box-shadow: 5px 10px rgba (0, 0, 0, 0.8);}
         
         ul {list-style-type: none;
               text-align: center}
       
               .page {text-align: right}
         
-    li {display: inline}
+        li {display: inline-block;}
       li a:link, a:visited {
                     color: #ffffff;
                     border-radius: 10px;
@@ -123,11 +128,12 @@ padding: 1em}
     </div>
     <br/>
     <div id="navigation">
+    <div class="pagenavbutton">
         <ul>
-            <li><a href="https://dentonj24.github.io/BrochureSite/index.html">Home</a></li>
-            <li><a href="https://dentonj24.github.io/BrochureSite/Creative.html">Creative</a></li>
-            <li><a href="https://dentonj24.github.io/BrochureSite/Adams_Jessica_Resume.pdf" target="_blank">Resume</a></li>
-            <li><a href="https://dentonj24.github.io/BrochureSite/Contact.html">Contact</a></li>
+            <li><h2><a href="https://dentonj24.github.io/BrochureSite/index.html">Home</a></h1></li>
+            <li><h2><a href="https://dentonj24.github.io/BrochureSite/Creative.html">Creative</a></h1></li>
+            <li><h2><a href="https://dentonj24.github.io/BrochureSite/Adams_Jessica_Resume.pdf" target="_blank">Resume</a></h1></li>
+            <li><h2><a href="https://dentonj24.github.io/BrochureSite/Contact.html">Contact</a></h1></li>
  </div>
  </div>
     <div class="box">
